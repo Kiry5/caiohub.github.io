@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gráfico de Barras</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+</head>
+<body>
+    <header>
+        <h1>Relatório do cardapio da cafeteria Aurora Dorée</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="#">Minha Região</a>
+        </nav>
+    </header>
+    <main class="graficos-section">
+        <section id="graficos-container"
+        class="graficos-container">
+        <!-- Id: 001 -->
+        <p class="graficos-container_texto">
+            Você sabia que servimos mais de <strong class="spant">50</strong> tipo de cafés, tendo aproximandamente <strong class="spant">1000 vendas</strong> por dia, e os clientes passam ficar na nossa cafeteria em média de <strong class="spant">2 horas</strong> em nosso estabelecimento."
+            </p>
+        </section>
+    </main>
+    <div class="container8">
+        <h1 style="color: #F05454;">Gráfico de vendas de café no mês</h1>
+        <div class="content">
+            <canvas id="myChart" width="800" height="400"></canvas>
+        </div>
+    </div>
+    <footer>
+        <p>Desenvolvido por Caio Felipe Braga de Oliveira</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
